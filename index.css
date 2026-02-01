@@ -372,9 +372,364 @@ font-size: 40px;
 
 
 
+.social{}
+.social-text{}
+.social-text p{
+      font-size: 28px;
+}
+
+
+.social-list{ margin: 27px 0 54px;}
+
+.social-item{
+     margin: 0 5px;
+}
+.social-item svg{
+  stroke: #fff;
+ width: 42px;
+     
+}
+.social-item svg:hover{
+stroke: #01c059;
+    filter: drop-shadow(0px 0px 9px #01c059);
+}
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.img-editar{
+    width: 192px;
+    height: 169px;
+    /* display: flex; */
+    /* align-self: flex-start; */
+    /* object-fit: cover !important; */
+}
+
+
+
+
+
+
+@media screen and (max-width: 1152px) {
+    .header-img {
+    width: 420px;
+}
+}
+
+@media screen and (max-width: 910px) {
+    .header-img {
+        width: 420px;
+        display: flex
+;
+        align-self: flex-start;
+    }
+}
+
+@media screen and (max-width: 850px) {
+    .header-cont {
+        display: grid !important
+;
+        justify-content: center;
+    }
+
+        .header-img {
+
+        justify-self: center;
+    }
+}
+
+
+@media screen and (max-width: 696px) {
+    .header-cont {
+
+        margin: 0px 20px;
+    }
+
+    .header-text-elemet {
+    width: auto;
+}
+}
+
+@media screen and (max-width: 592px) {
+    .header-title p {
+    font-size: 40px;
+}
+
+   .header-subtitle {
+    font-size: 32px;
+    margin: 7px 0 10px 0;
+}
+}
+
+
+@media screen and (max-width: 454px) {
+    .header-img {
+        width: 357px;
+
+    }
+}
+
+@media screen and (max-width: 452px) {
+    .header-title p {
+        font-size: 27px;
+    }
+
+        .header-subtitle {
+        font-size: 27px;
+       
+    }
+}
+
+
+
+@media screen and (max-width: 376px) {
+    .header-cont {
+        margin: 0px 5px;
+    }.header-img {
+        width: 320px;
+    }
+}
+
+@media screen and (max-width: 1318px) {
+   .incluye-item-text {
+    width: 383px;
+    
+}
+}
+
+
+
+
+
+@media screen and (max-width: 1230px) {
+    .incluye-item-text {
+        width: 334px;
+    }
+}
+
+@media screen and (max-width: 1132px) {
+    .incluye-item-text {
+        width: 303px;
+    }
+}
+
+
+
+
+@media screen and (max-width: 1065px) {
+   .incluye-list {
+    display: block !important;
+}
+
+.incluye-item-img {
+    width: 213px;
+    
+}
+
+.incluye-item {
+    align-items: anchor-center;
+}
+.incluye-item-text {
+                width: 100%;
+    }
+}
+
+
+
+
+
+
+
+@media screen and (max-width: 615px) {
+    .incluye-item {
+        display: block !important;
+    }
+
+        .incluye-item-img {
+    
+                margin: auto auto 13px;
+    }
+
+        .incluye-item {
+         align-items: auto; 
+    }
+
+    .incluye-item-text {
+    
+    margin: 0px 0px;
+}
+}
+
+@media screen and (max-width: 559px) {
+    .incluye-list {
+        display: grid !important
+;
+        gap: 24px;
+    }
+
+        .incluye-item-2 {
+        margin: -26px 0 0 0;
+    }
+
+
+}
+
+@media screen and (max-width: 1186px) {
+   .comprarlo {
+    
+    margin: 90px 120px 0;
+}
+
+
+}
+
+
+@media screen and (max-width: 944px) {
+    .comprarlo {
+        margin: 90px 50px 0;
+    }
+}
+
+@media screen and (max-width: 622px) {
+    .comprarlo {
+        margin: 90px 29px 0;
+        padding: 31px 28px 0;
+    }
+
+    
+}
+
+
+@media screen and (max-width: 490px) {
+    .comprarlo {
+        margin: 78px 23px 0;
+        padding: 31px 18px 0;
+    }
+}
+
+@media screen and (max-width: 411px) {
+    .comprarlo h1 {
+    font-size: 17px;
+   
+}
+}
+
+@media screen and (max-width: 1242px) {
+    .extra {
+    padding: 0px 128px;
+}
+}
+
+@media screen and (max-width: 1130px) {
+    .extra h1 {
+    font-size: 16px;
+    
+}
+}
+
+@media screen and (max-width: 1068px) {
+    .extra {
+        padding: 0px 42px;
+    }
+}
+
+@media screen and (max-width: 598px) {
+    .extra {
+        padding: 0px 22px;
+    }
+}
+
+@media screen and (max-width: 1142px) {
+   .salida {
+    padding: 0 115px;
+}
+}
+
+@media screen and (max-width: 950px) {
+    .salida {
+        padding: 0 40px;
+    }
+
+    .salida h1{
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width: 747px) {
+   .button-glich {
+   
+    font-size: 80px;
+    
+}
+}
+
+@media screen and (max-width: 651px) {
+    .button-glich {
+        font-size: 59px;
+    }
+}
+
+@media screen and (max-width: 484px) {
+    .button-glich {
+        font-size: 49px;
+    }
+}
+
+
+@media screen and (max-width: 405px) {
+    .button-glich {
+        font-size: 38px;
+    }
+}
 
 
 
