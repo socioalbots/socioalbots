@@ -1,0 +1,383 @@
+body{
+    background: linear-gradient(#000000eb 100%, #000), url(source/img/bg.jpg);
+    background-size: contain;
+}
+
+::selection{
+        background: #01c059;
+        color: #fff;
+}
+
+
+
+.nav{}
+.logo-cont{}
+.icon{
+            width: 75px;
+}
+.icon img{}
+.icon-text{
+        width: 130px;
+}
+.icon-text img{}
+
+
+.header{}
+.header-cont{}
+.header-img{
+        width: 475px;
+}
+.header-img img{}
+
+
+.header-text-elemet{
+                width: 665px;
+}
+
+.header-title{
+        font-size: 55px;
+}
+.header-title p{}
+
+.header-subtitle {
+font-size: 40px;
+    margin: 2px 0 10px 0;
+}
+.header-subtitle p {
+        
+}
+.header-text{
+        
+}
+.header-text p{
+        font-size: 13px;
+}
+
+.header-bold{
+        font-weight: bold;
+}
+
+
+.header-padding{
+        margin: 0 0 0 10px;
+}
+
+
+.header-codigo{}
+
+.header-codigo-title{}
+.header-codigo-title p{
+        font-size: 14px;
+        margin: 0 0 8px 0;
+}
+
+
+.header-pago{}
+.header-pago-list{}
+
+.header-pago{}
+.header-pago button{
+        background: #ffffff17;
+    border: 1px solid #434141;
+    backdrop-filter: blur(9px);
+    color: #fff;
+    padding: 7px 23px;
+    margin: 28px 31px 0 0;
+}
+.header-pago button:hover{
+        background: linear-gradient(1deg, #01c059, #00db91);
+        border:  1px solid #01c059;
+}
+
+
+.incluye{margin: 58px 0 0 0;}
+
+.incluye-title{}
+.incluye-title p{text-transform: uppercase;
+    font-size: 25px;
+  margin: 0 0 40px 0;
+}
+
+
+
+.incluye-list{
+        justify-content: space-between;
+        padding: 0 17px;
+}
+.incluye-item{}
+.incluye-item-img{
+     width: 163px;
+    height: 150px;
+    display: flex
+;
+    align-self: flex-start;
+    object-fit: cover !important;
+}
+.incluye-item-img img{
+
+}
+
+
+.incluye-item-text{
+              width: 430px;
+    margin: 0px 25px;
+}
+.incluye-item-text p{   font-size: 12px;}
+
+
+.verde{
+        color: #01c059;
+}
+
+.incluye-item-img::after{
+
+    background: linear-gradient(1deg, #01c059, #00db91);
+ 
+}
+
+
+
+
+.comprarlo{
+   background: #ffffff05;
+    border: 1px solid #434141;
+    backdrop-filter: blur(9px);
+    padding: 31px 52px 0;
+    margin:114px 224px 0;
+}
+.comprarlo h1{
+        font-size: 25px;
+        margin: 0 0 25px 0;
+}
+.comprarlo p{
+        font-size: 13px;
+}
+
+.rojo{
+      color: #ff0000;
+    font-weight: bold;
+    font-size: 19px;
+    text-shadow: 0 0 13px #ff0000d1;
+}
+
+
+
+
+
+
+
+
+
+
+.extra {
+    padding: 0 213px;
+}
+.extra p{
+        font-size: 13px;
+}
+
+.extra-text{
+        font-size: 25px;
+    margin: 0 0 25px 0;
+}
+.extra h1{
+       font-size: 21px;
+       margin: 81px 0 43px 0;
+
+
+       
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.salida {
+    padding: 0 200px;
+}
+.salida p{
+        font-size: 13px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.mz-elem{
+            margin: 64px 0 88px;
+}
+.marzo{
+        
+}
+.button-glich{
+   transition: .3s;
+    letter-spacing: .1rem;
+    animation-duration: 1.2s;
+    background: #000000;
+    border: none;
+    font-size: 92px;
+    color: #fff;
+  }
+  
+  .button-glich span{
+    letter-spacing: .1rem;
+    transition: .3s;
+    box-sizing: border-box;
+    position: relative;
+    background: inherit;
+  }
+  
+  .button-glich span::before {
+    box-sizing: border-box;
+    position: absolute;
+    content: "";
+    background: inherit;
+  }
+  
+  .button-glich span::before, .button-glich:focus span::before {
+    animation: glich 5s linear both infinite;
+    animation-duration: 3s;
+
+  }
+  
+  @keyframes glich {
+    0% {
+      content: "#";
+          color: #01c059;
+    }
+  
+    5% {
+      content: ".";
+          color: #01c059;
+    }
+  
+    10% {
+      content: "^{";
+          color: #01c059;
+    }
+  
+    15% {
+      content: "-!";
+          color: #01c059;
+    }
+  
+    20% {
+      content: "#$_";
+          color: #01c059;
+    }
+  
+    25% {
+      content: "№:0";
+          color: #01c059;
+    }
+  
+    30% {
+      content: "#{+.";
+          color: #01c059;
+    }
+  
+    35% {
+      content: "@}-?";
+          color: #01c059;
+    }
+  
+    40% {
+      content: "?{4@%";
+          color: #01c059;
+    }
+  
+    45% {
+      content: "=.,^!";
+          color: #01c059;
+    }
+  
+    50% {
+      content: "?2@%";
+          color: #01c059;
+    }
+  
+    55% {
+      content: "\;1}]";
+          color: #01c059;
+    }
+  
+    60% {
+      content: "?{%:%";
+      right: 0;
+          color: #01c059;
+    }
+  
+    65% {
+      content: "|{f[4";
+      right: 0;
+          color: #01c059;
+    }
+  
+    70% {
+      content: "{4%0%";
+      right: 0;
+          color: #01c059;
+    }
+  
+    75% {
+      content: "'1_0<";
+      right: 0;
+          color: #01c059;
+    }
+  
+    80% {
+      content: "{0%";
+      right: 0;
+          color: #01c059;
+    }
+  
+    85% {
+      content: "]>'";
+      right: 0;
+          color: #01c059;
+    }
+  
+    90% {
+      content: "4";
+      right: 0;
+          color: #01c059;
+    }
+  
+    95% {
+      content: "2";
+      right: 0;
+          color: #01c059;
+    }
+  
+    100% {
+      content: "";
+      right: 0;
+          color: #01c059;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+

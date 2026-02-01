@@ -1,0 +1,20 @@
+@font-face {
+    font-family: titulo;
+    src: url(titulo.ttf);
+}
+
+
+@font-face {
+    font-family: subtitulo;
+    src: url(subtitulo.ttf);
+}
+
+@font-face {
+    font-family: letra-600;
+    src: url(letra-600.ttf);
+}
+
+@font-face {
+    font-family: letra-400;
+    src: url(letra-400.ttf);
+}
